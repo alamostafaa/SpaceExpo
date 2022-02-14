@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+body
+{
+    position: relative;
+    background-image: url(/smth/39607.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+}
+header
+{
+    text-align: center;
+}
+h1
+{
+    font-size: 80px;  
+    transform: translatey(30px);     
+}
+h1:hover
+{
+    cursor: pointer;
+    transition: 2s linear;
+}
+img{
+    transform: translate(149px,-71px);
+}
+
+.astru1
+{
+    position: absolute;
+    /*transform: translate(35px,-35rem);*/
+    z-index: -1;
+    animation: floating 10s linear 1s infinite alternate ;
+}
+.astru2
+{
+    position: absolute;
+    z-index: -1;
+    transform: translate(65em,-20rem);
+    animation: floating1 10s linear 1s infinite alternate ;
+}
+.content
+{
+    background-color: rgba(0, 0, 0, .4);
+    width: 50%;
+    margin: 5% auto ;
+    
+}
+
+li
+{
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    cursor: pointer;
+}
+li:hover
+{
+    text-decoration: underline;
+    letter-spacing: 3px;
+
+}
+
+
+
+@keyframes floating {
+    0%
+    {
+        transform: translate(35px,-35rem);
+    }
+    20%
+    {
+        transform: translate(80px,-35rem);
+    }
+    30%
+    {
+        transform: translate(150px,-35rem);
+    }
+    50%
+    {
+        transform: translate(300px,-30rem);
+    }
+    60%
+    {
+        transform: translate(250px,-30rem);
+    }
+    70%
+    {
+        transform: translate(200px,-30rem);
+    }
+    80%
+    {
+        transform: translate(150px,-32rem);
+    }
+    90%
+    {
+        transform: translate(80px,-35rem);  
+    }
+    100%
+    {
+        transform: translate(35px,-35rem);
+    }
+
+}
+@keyframes floating1{  
+    20%
+    {
+        transform: translate(65em,-23rem);
+    }
+    40%
+    {
+        transform: translate(63em,-20rem);
+    }
+    80%
+    {
+        transform: translate(60em,-18rem);
+    }
+    90%
+    {
+        transform: translate(63em,-20rem);
+    }
+    95%
+    {
+        transform: translate(65em,-20rem);
+    }
+    100%
+    {
+        transform: translate(65em,-20rem);
+    }
+}

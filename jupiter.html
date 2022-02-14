@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/planets.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>Jupiter</title>
+</head>
+
+<body>
+    <div class="count">
+        <div class="planet">
+            <model-viewer alt="" src="./glp/Jupiter_1_142984.glb" interaction-prompt="none" seamless-poster
+                camera-controls auto-rotate>
+            </model-viewer>
+            <div class="bio">
+                <p>Jupiter has a long history of surprising scientists – all the way back to 1610 when Galileo Galilei
+                    found the first moons beyond Earth. That discovery changed the way we see the universe.</p>
+                <p>
+                    Fifth in line from the Sun, Jupiter is, by far, the largest planet in the solar system – more than
+                    twice as massive as all the other planets combined.
+                </p>
+                <p>
+                    Jupiter's familiar stripes and swirls are actually cold, windy clouds of ammonia and water, floating
+                    in an atmosphere of hydrogen and helium. Jupiter’s iconic Great Red Spot is a giant storm bigger
+                    than Earth that has raged for hundreds of years.
+                </p>
+            </div>
+            <button onclick="DisplayDetails()"><a href="#inDepth">learnmore...</a></button>
+        </div>
+    </div>
+    <div class="countinDepth">
+        <div id="inDepth">
+            <model-viewer alt="" src="./glp/Jupiter_1_142984.glb" interaction-prompt="none" seamless-poster
+                camera-controls auto-rotate></model-viewer>
+            <section class="intro active">
+                <div class="somethingFocus">
+                <h1>Introdction</h1>
+                <p>
+                    Jupiter is the fifth planet from our Sun and is, by far, the largest planet in the solar system –
+                    more than twice as massive as all the other planets combined. Jupiter's stripes and swirls are
+                    actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium.
+                    Jupiter’s iconic Great Red Spot is a giant storm bigger than Earth that has raged for hundreds of
+                    years.
+                </p>
+                <p>
+                    Jupiter is surrounded by dozens of moons. Jupiter also has several rings, but unlike the famous
+                    rings of Saturn, Jupiter’s rings are very faint and made of dust, not ice.
+                </p>
+                </div>
+            </section>
+           
+            <section class="Poflife">
+                <div class="somethingFocus">
+                <h1>Potential for Life</h1>
+                <p>
+                    Jupiter’s environment is probably not conducive to life as we know it. The temperatures, pressures,
+                    and materials that characterize this planet are most likely too extreme and volatile for organisms
+                    to adapt to.
+                </p>
+                <p>
+                    While planet Jupiter is an unlikely place for living things to take hold, the same is not true of
+                    some of its many moons. Europa is one of the likeliest places to find life elsewhere in our solar
+                    system. There is evidence of a vast ocean just beneath its icy crust, where life could possibly be
+                    supported.
+                </p>
+                </div>
+            </section>
+            <section class="Size-and-Distance">
+                <div class="somethingFocus">
+                <h1>Size and Distance</h1>
+                <img src="/smth/jupiter.jfif" alt="postion" width="200px" height="100px">
+                <p>
+                    With a radius of 43,440.7 miles (69,911 kilometers), Jupiter is 11 times wider than Earth. If Earth
+                    were the size of a nickel, Jupiter would be about as big as a basketball.
+                </p>
+              
+                <p>
+                    From an average distance of 484 million miles (778 million kilometers), Jupiter is 5.2 astronomical
+                    units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to
+                    Earth. From this distance, it takes Sunlight 43 minutes to travel from the Sun to Jupiter.
+                </p>
+               </div>
+            </section>
+            <section class="Orbit-and-Rotation">
+                <div class="somethingFocus">
+                <h1>Orbit and Rotation</h1>
+                <p>
+                    Jupiter has the shortest day in the solar system. One day on Jupiter takes only about 10 hours (the
+                    time it takes for Jupiter to rotate or spin around once), and Jupiter makes a complete orbit around
+                    the Sun (a year in Jovian time) in about 12 Earth years (4,333 Earth days).
+                </p>
+                <p>
+                    Its equator is tilted with respect to its orbital path around the Sun by just 3 degrees. This means
+                    Jupiter spins nearly upright and does not have seasons as extreme as other planets do.
+                </p>
+                </div>
+            </section>
+            <section class="moons">
+                <div class="somethingFocus">
+                <h1>Moons</h1>
+                <img src="/smth/images (1).jfif" alt="">
+                <p>
+                    With four large moons and many smaller moons, Jupiter forms a kind of miniature solar system.
+                    Jupiter has 53 confirmed moons and 26 provisional moons awaiting confirmation of discovery. Moons
+                    are named after they are confirmed.
+                </p>
+                <p>
+                    Jupiter's four largest moons – Io, Europa, Ganymede, and Callisto – were first observed by the
+                    astronomer Galileo Galilei in 1610 using an early version of the telescope. These four moons are
+                    known today as the Galilean satellites, and they're some of the most fascinating destinations in our
+                    solar system. Io is the most volcanically active body in the solar system. Ganymede is the largest
+                    moon in the solar system (even bigger than the planet Mercury). Callisto’s very few small craters
+                    indicate a small degree of current surface activity. A liquid-water ocean with the ingredients for
+                    life may lie beneath the frozen crust of Europa, making it a tempting place to explore.
+                </p>
+                </div>
+            </section>
+        </div>
+
+    </div>
+<div class="Stars">
+    <!--<img src="./Stars/Stars2.png" alt="" width="250px" height="250px">-->
+</div>
+    <script src="./js/planets.js"></script>
+</body>
+
+</html>
