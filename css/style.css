@@ -45,7 +45,6 @@ img{
 {
     position: absolute;
     z-index: -1;
-    transform: translate(65em,-20rem);
     animation: floating1 10s linear 1s infinite alternate ;
 }
 .content
@@ -73,67 +72,22 @@ li:hover
 
 
 @keyframes floating {
-    0%
+    from
     {
-        transform: translate(35px,-35rem);
+        transform: translate(35px,-35rem)
+        
     }
-    20%
-    {
-        transform: translate(80px,-35rem);
-    }
-    30%
-    {
-        transform: translate(150px,-35rem);
-    }
-    50%
-    {
+    to {
         transform: translate(300px,-30rem);
-    }
-    60%
-    {
-        transform: translate(250px,-30rem);
-    }
-    70%
-    {
-        transform: translate(200px,-30rem);
-    }
-    80%
-    {
-        transform: translate(150px,-32rem);
-    }
-    90%
-    {
-        transform: translate(80px,-35rem);  
-    }
-    100%
-    {
-        transform: translate(35px,-35rem);
-    }
-
+    } 
 }
 @keyframes floating1{  
-    20%
+    from
     {
-        transform: translate(65em,-23rem);
+        transform: translate(65em,-20rem);
     }
-    40%
-    {
-        transform: translate(63em,-20rem);
-    }
-    80%
+    to 
     {
         transform: translate(60em,-18rem);
-    }
-    90%
-    {
-        transform: translate(63em,-20rem);
-    }
-    95%
-    {
-        transform: translate(65em,-20rem);
-    }
-    100%
-    {
-        transform: translate(65em,-20rem);
     }
 }
