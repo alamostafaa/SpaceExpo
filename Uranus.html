@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--load Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?Space+Mono&family=Orbitron&display=swap" rel="stylesheet">
+    <!--load Awsome font icons-->
+    <script src="https://kit.fontawesome.com/4cd65421d6.js" crossorigin="anonymous"></script>
+    <!--load css file-->
+    <link rel="stylesheet" href="./css/planets.css">
+    <!--load glps' module viewer-->
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <title>Uranus</title>
+</head>
+
+<body>
+    <div class="count">
+        <div class="comingHome">
+            <a href="./index.html"><i class="fa-solid fa-left">Home</i></a>
+        </div>
+
+        <div class="planet">
+            <model-viewer alt="" src="./glp/Uranus_1_51118.glb" interaction-prompt="none" seamless-poster
+                camera-controls auto-rotate>
+            </model-viewer>
+            <div class="bio">
+                <p>
+                    Uranus is the seventh planet from the Sun, and has the third-largest diameter in our solar system. It was the first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star.
+                </p>
+               <p>
+                It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode. Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead, the scientific community accepted Bode's suggestion to name it Uranus, the Greek god of the sky, as suggested by Bode.​
+               </p>
+                
+            </div>
+            <button onclick="DisplayDetails()"><a href="#inDepth">learnmore...</a></button>
+        </div>
+    </div>
+    <div class="countinDepth">
+        <div id="inDepth">
+            <div class="imgs">
+                
+            </div>
+            <section class="intro active">
+                <div class="somethingFocus">
+                    <h1>Introdction</h1>
+                    <p>
+                        The seventh planet from the Sun with the third largest diameter in our solar system, Uranus is very cold and windy. The ice giant is surrounded by 13 faint rings and 27 small moons as it rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side, orbiting the Sun like a rolling ball.
+                    </p>
+                    <p>
+                        The first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star. It was two years later that the object was universally accepted as a new planet, in part because of observations by astronomer Johann Elert Bode.
+                    </p>
+                    
+                </div>
+            </section>
+            <section class="NameSake">
+                <div class="somethingFocus">
+                    <h1>Namesake</h1>
+                   <p>
+                    William Herschel tried unsuccessfully to name his discovery Georgium Sidus after King George III. Instead, the planet was named for Uranus, the Greek god of the sky, as suggested by Johann Bode.
+                   </p>
+                </div>
+            </section>
+
+            <section class="Poflife">
+                <div class="somethingFocus">
+                    <h1>Potential for Life</h1>
+                  <p>
+                    Uranus' environment is not conducive to life as we know it. The temperatures, pressures, and materials that characterize this planet are most likely too extreme and volatile for organisms to adapt to.
+                  </p>
+                
+                </div>
+            </section>
+            <section class="Size-and-Distance">
+                <div class="somethingFocus">
+                    <h1>Size and Distance</h1>
+                   <p>
+                    With a radius of 15,759.2 miles (25,362 kilometers), Uranus is 4 times wider than Earth. If Earth was the size of a nickel, Uranus would be about as big as a softball.
+                   </p>
+                    <p>
+                        From an average distance of 1.8 billion miles (2.9 billion kilometers), Uranus is 19.8 astronomical units away from the Sun. One astronomical unit (abbreviated as AU), is the distance from the Sun to Earth. From this distance, it takes sunlight 2 hours and 40 minutes to travel from the Sun to Uranus.
+                    </p>
+                </div>
+            </section>
+            <section class="Orbit-and-Rotation">
+                <div class="somethingFocus">
+                    <h1>Orbit and Rotation</h1>
+                    <p>
+                        One day on Uranus takes about 17 hours (the time it takes for Uranus to rotate or spin once). And Uranus makes a complete orbit around the Sun (a year in Uranian time) in about 84 Earth years (30,687 Earth days).
+                    </p>
+                    <p>
+                        Uranus is the only planet whose equator is nearly at a right angle to its orbit, with a tilt of 97.77 degrees – possibly the result of a collision with an Earth-sized object long ago. This unique tilt causes the most extreme seasons in the solar system. For nearly a quarter of each Uranian year, the Sun shines directly over each pole, plunging the other half of the planet into a 21-year-long, dark winter.
+                    </p>
+                    <p>
+                        Uranus is also one of just two planets that rotate in the opposite direction than most of the planets (Venus is the other one), from east to west.
+                    </p>
+                  
+                </div>
+            </section>
+            <section class="moons">
+                <div class="somethingFocus">
+                    <img src="./planetphotos/moons-011.png" width="250px"alt="">
+                    <h1>Moons</h1>
+                    <p>
+                        Uranus has 27 known moons. While most of the satellites orbiting other planets take their names from Greek or Roman mythology, Uranus' moons are unique in being named for characters from the works of William Shakespeare and Alexander Pope.
+                    </p>
+                    <p>
+                        In order of increasing distance from the planet, the rings are called Zeta, 6, 5, 4, Alpha, Beta, Eta, Gamma, Delta, Lambda, Epsilon, Nu, and Mu. Some of the larger rings are surrounded by belts of fine dust.
+                    </p>
+                </div>
+            </section>
+        </div>
+
+    </div>
+    <div id="Top">
+        <button id="toTop">
+            <i class="fas fa-arrow-circle-up"> </i>
+        </button>
+    </div>
+
+    <script src="./js/planets.js"></script>
+</body>
+
+</html>
