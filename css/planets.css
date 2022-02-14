@@ -26,6 +26,15 @@ body
     width: 100%;
     height: 100vh;
 }
+.comingHome
+{
+    margin: 15px;
+}
+.comingHome a
+{
+    font-size: 20px;
+    text-decoration: none;
+}
 .planet
 {  
    position: relative;
@@ -82,7 +91,7 @@ button a
 
 .countinDepth
 {
-    transform: translate(0,42em);
+    transform: translate(0,50em);
 }
 #inDepth
 {
@@ -204,3 +213,23 @@ section.active   .somethingFocus::after {
 
  
         
+#toTop{
+    margin: 15px;
+    padding: 0;
+    background:transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: rgb(202, 164, 164);
+    position: fixed;
+    z-index: 4;
+    display:none;
+   
+    transition: ease 0.5s all
+}
+
+.fas
+{
+  
+    font-size: 80px;
+    color: rgb(253, 250, 250)
+}

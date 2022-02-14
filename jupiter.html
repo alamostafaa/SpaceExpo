@@ -6,12 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/planets.css">
+     <!--load Awsome font icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <title>Jupiter</title>
 </head>
 
 <body>
     <div class="count">
+        <div class="comingHome">
+         <a  href="./index.html"><i class="fa-solid fa-left">Home</i></a>
+        </div>
+
         <div class="planet">
             <model-viewer alt="" src="./glp/Jupiter_1_142984.glb" interaction-prompt="none" seamless-poster
                 camera-controls auto-rotate>
@@ -122,9 +128,12 @@
         </div>
 
     </div>
-<div class="Stars">
-    <!--<img src="./Stars/Stars2.png" alt="" width="250px" height="250px">-->
-</div>
+    <div id="Top">
+        <button id="toTop">
+          <i class="fas fa-arrow-circle-up"> </i>
+        </button>
+      </div>
+
     <script src="./js/planets.js"></script>
 </body>
 

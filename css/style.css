@@ -11,7 +11,7 @@ body
     background-image: url(/smth/39607.jpg);
     background-position: center;
     background-size:cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width: 100%;
 
 
