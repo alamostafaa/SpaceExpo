@@ -93,6 +93,11 @@ button a
 {
     transform: translate(0,50em);
 }
+.fa-solid
+{
+    margin:4px 6px;
+    transform: translateY(2px);
+}
 #inDepth
 {
     
