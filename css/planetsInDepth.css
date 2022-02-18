@@ -1,94 +1,3 @@
-*
-{
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
-    color: azure;
-    scroll-behavior: smooth;
-}
-body
-{
-  /*  background-color: #406882;*/
-  background-color: black;
-    position: relative;
-
-
-}
-
-.count
-{
-    position: absolute;
-    top: 0;
-    transform: translateY(-15px);
-    background-image:url(/smth/plantebg.jpg) ;
-    background-position: center;
-    background-size:cover;   
-    width: 100%;
-    height: 100vh;
-}
-.comingHome
-{
-    margin: 15px;
-}
-.comingHome a
-{
-    font-size: 20px;
-    text-decoration: none;
-}
-.planet
-{  
-   position: relative;
-   background: rgba(0, 0, 0, 0.3);
-   box-shadow: 0 0 20px 9px #24a7ff1f;
-   margin-top:15px ;
-   margin: 10% auto;
-   width: 90%;
-   height: fit-content;
-   padding: 20px;
-   display: flex;
-   border-radius: 15px;
-   /*visibility: hidden;*/
-}
-.bio
-{
-    margin-left: 15px;
-
-}
-.bio p{
-    font-size: 22px;
-    margin-bottom:20px;
-    padding-top: 12px;
-    font-family: 'Space Mono', monospace;
-}
-button
-{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin: 12px;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, .4);
-    border-radius: 80px;
-    border-style:none ;
-    cursor: pointer;
-    animation: gtAtnshn 1s linear 1s infinite alternate;
-}
-button a
-{
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: 15px;
-}
-
-@keyframes gtAtnshn {
-   from {
-    background-color: rgba(0, 0, 0, .2);
-   }
-   to {
-    background-color: rgba(0, 0, 0, .8);
-   }
-    
-}
 
 .countinDepth
 {
@@ -141,19 +50,8 @@ button a
 }
 
 
-.intro
-{
-    padding: 15px;
-    float: right;
-    transition: 1s;   
-}
 
-
-.Size-and-Distance img
-{
-    float: left;
-    margin: 15px;
-}
+/*active circles*/
 .somethingFocus::after
 {
     content: '';
@@ -209,7 +107,7 @@ section.active   .somethingFocus::after {
 }
 
  
-        
+/*to top buttons*/        
 #toTop{
     margin: 15px;
     padding: 0;
@@ -230,6 +128,8 @@ section.active   .somethingFocus::after {
     font-size: 80px;
     color: rgb(253, 250, 250)
 }
+
+/*Displaying overlay images*/
 .imags
 {
     display: flex;
