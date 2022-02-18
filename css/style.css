@@ -39,20 +39,20 @@ header img{
     position: absolute;
     /*transform: translate(35px,-35rem);*/
     z-index: -1;
-    animation: floating 10s linear 1s infinite alternate ;
+    animation: floating 5s linear 1s infinite alternate ;
 }
 .astru2
 {
     position: absolute;
     z-index: -1;
-    animation: floating1 10s linear 1s infinite alternate ;
+    animation: floating1 5s linear 1s infinite alternate ;
 }
 .content
 {
     background-color: rgba(0, 0, 0, .4);
     width: 80%;
     height: auto;
-    margin: 5% auto ;
+    margin: 0% auto ;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -70,6 +70,10 @@ header img{
     width: 300px;
 }
 
+.planet img:hover
+{
+    transform: scale(1.18);
+}
 h3{
     text-align: center;
     font-family: 'Architects Daughter', cursive;
@@ -80,20 +84,20 @@ h3{
 @keyframes floating {
     from
     {
-        transform: translate(35px,-35rem)
+        transform: translate(35px,-50rem)
         
     }
     to {
-        transform: translate(300px,-30rem);
+        transform: translate(100px,-45rem);
     } 
 }
 @keyframes floating1{  
     from
     {
-        transform: translate(65em,-20rem);
+        transform: translate(75em,-25rem);
     }
     to 
     {
-        transform: translate(60em,-18rem);
+        transform: translate(70em,-15rem);
     }
 }
