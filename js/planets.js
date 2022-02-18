@@ -14,7 +14,7 @@ let activeDiv = (e) => {
             }
         })
 
-    }, {threshold: [0.7],});
+    }, {threshold: [0.5],});
     observer.observe(e);
 }
 const sections = document.querySelectorAll('section')
@@ -41,4 +41,3 @@ document.addEventListener('scroll', function (){
         toTheTop.style.display = 'none';
     }
     });
-    

@@ -8,13 +8,11 @@
 body
 {
     position: relative;
-    background-image: url(/smth/39607.jpg);
+    background-image: url(./39607.jpg);
     background-position: center;
     background-size:cover;
     background-repeat: repeat;
-    width: 100%;
-
-
+    max-width: 100%;
 }
 header
 {
@@ -22,14 +20,15 @@ header
 }
 h1
 {
+    background: url(./logoMask.jpg);
+    background-position: center;
+    background-size:cover;
+   -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 80px;  
     transform: translatey(30px);     
 }
-h1:hover
-{
-    cursor: pointer;
-    transition: 2s linear;
-}
+
 header img{
     transform: translate(149px,-71px);
 }
@@ -37,15 +36,18 @@ header img{
 .astru1
 {
     position: absolute;
-    /*transform: translate(35px,-35rem);*/
+    top:120px;
+    margin-left: 15px;
     z-index: -1;
     animation: floating 5s linear 1s infinite alternate ;
 }
 .astru2
 {
     position: absolute;
+    bottom:100px;
+    right:15px;
     z-index: -1;
-    animation: floating1 5s linear 1s infinite alternate ;
+    animation: floating1 5s linear 1s infinite alternate;
 }
 .content
 {
@@ -55,6 +57,7 @@ header img{
     margin: 0% auto ;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 50px;
     justify-content: space-evenly;
     
 }
@@ -67,7 +70,7 @@ header img{
 
 .planet img
 {
-    width: 300px;
+    width: 250px;
 }
 
 .planet img:hover
@@ -78,26 +81,50 @@ h3{
     text-align: center;
     font-family: 'Architects Daughter', cursive;
     font-size: 25px;
-    transform: translateX(5%);
+    transform: translateX(-2.5%);
 }
 
 @keyframes floating {
     from
     {
-        transform: translate(35px,-50rem)
+       transform: translate(0%,2%);
         
     }
     to {
-        transform: translate(100px,-45rem);
+        transform: translate(50%,80%);
     } 
 }
 @keyframes floating1{  
     from
     {
-        transform: translate(75em,-25rem);
+        transform: translate(0,0);
     }
     to 
     {
-        transform: translate(70em,-15rem);
+        transform: translate(-30%,-50%);
     }
+}
+
+@media only screen and (max-width:800px)
+{
+    .planet img
+{
+    width: 200px;
+}
+h3 {
+    font-size: 19px;
+    transform: translatex(17px);
+}
+}
+
+@media only screen and (max-width:500px)
+{
+    .planet img
+    {
+        width: 100px;
+    }
+h3 {
+    font-size: 15px;
+    transform: translatex(20px);
+}
 }

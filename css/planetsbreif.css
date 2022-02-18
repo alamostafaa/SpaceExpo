@@ -8,28 +8,27 @@
 }
 body
 {
-  /*  background-color: #406882;*/
-  background-color: black;
+    /*background: linear-gradient(0deg, #CE7BB0 0%, #6867AC 100%);*/
+   background-color: black;
   position: relative;
-
-
 }
 
 .count
 {
     position: absolute;
     top: 0;
-    transform: translateY(-15px);
-    background-image:url(/smth/plantebg.jpg) ;
+    transform: translateY(-2.5%);
+    background-image:url(./plantebg.jpg) ;
     background-position: center;
     background-size:cover;   
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
 }
 .comingHome
 {
     margin: 15px;
 }
+
 .comingHome a
 {
     font-size: 20px;
@@ -41,20 +40,15 @@ body
    background: rgba(0, 0, 0, 0.3);
    box-shadow: 0 0 20px 9px #24a7ff1f;
    margin-top:15px ;
-   margin: 10% auto;
+   margin: 8% auto;
    width: 90%;
-   height: fit-content;
    padding: 20px;
    display: flex;
    border-radius: 15px;
-   /*visibility: hidden;*/
+  
 }
-.bio
-{
-    margin-left: 15px;
 
-}
-.bio p{
+.bio p{ 
     font-size: 22px;
     margin-bottom:20px;
     padding-top: 12px;
@@ -87,5 +81,18 @@ button a
    to {
     background-color: rgba(0, 0, 0, .8);
    }
+    
+}
+
+@media only screen and (max-width:700px){
+    .bio p
+    {
+        font-size: 18px;
+    }
+    .count
+    {
+        right: 0;
+
+    }
     
 }
