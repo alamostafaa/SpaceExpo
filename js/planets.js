@@ -1,19 +1,4 @@
-function DisplayDetails(){
-    let btn = document.getElementsByTagName('button');
-    btn.addEventListener('click', () => {
-
-    });
-}
-function something () 
-{
-    document.addEventListener('scroll' , () => {
-        
-    })
-}
-
-//to add stars photos & active element
-//create img elm
-
+//active section
 let activeDiv = (e) => {
     const observer = new IntersectionObserver((entries)=> {
         entries.forEach(entry =>{
