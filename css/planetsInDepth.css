@@ -35,7 +35,7 @@
 }
 #inDepth h1
 {
-    background: linear-gradient(#CE7BB0,#160040);
+    background: linear-gradient(#917bce,#160040);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Orbitron', sans-serif;
@@ -46,7 +46,7 @@
 #inDepth h1::before
 {
     content: '';
-    background-image: linear-gradient(#160040,#CE7BB0);
+    background-image: linear-gradient(#160040,#917bce);
     padding: 1.5px;
     margin: 2.4px;
 }
@@ -63,7 +63,7 @@
 .somethingFocus::after
 {
     content: '';
-    background: rgba(83, 13, 67, 0.438);
+    background: rgba(32, 13, 83, 0.438);
     position: absolute;
     z-index: -5;
     width: 20vh;
@@ -75,7 +75,7 @@
 .somethingFocus::before {
     content: '';
     background: rgb(255,255,255);
-    background: rgba(83, 13, 67, 0.438);
+    background: rgba(32, 13, 83, 0.438);
     position: absolute;
     top: 3em;
     right: 3em; 
@@ -89,7 +89,7 @@
 
 .active
 {
-    box-shadow: 0 0 20px 9px #160040;
+    box-shadow: 0 0 20px 9px #2a0968;
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
 }
