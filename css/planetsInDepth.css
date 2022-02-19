@@ -15,10 +15,9 @@
 }
 #inDepth p
 {
-
+    margin-top: 5px;
     line-height: 1.6em;
     font-size: 24px;
-   /* color: #1A374D;*/
 }
 .somethingFocus
 {
@@ -64,7 +63,7 @@
 .somethingFocus::after
 {
     content: '';
-    background: rgba(255, 255, 255, 0.187);
+    background: rgba(83, 13, 67, 0.438);
     position: absolute;
     z-index: -5;
     width: 20vh;
@@ -76,9 +75,9 @@
 .somethingFocus::before {
     content: '';
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, #ffffff1a 0%, rgba(255,255,255,.2) 100%);
+    background: rgba(83, 13, 67, 0.438);
     position: absolute;
-     top: 3em;
+    top: 3em;
     right: 3em; 
     z-index: -5; 
     width: 10vh;
@@ -90,7 +89,7 @@
 
 .active
 {
-    box-shadow: 0 0 20px 9px #24a7ff1f;
+    box-shadow: 0 0 20px 9px #160040;
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
 }
